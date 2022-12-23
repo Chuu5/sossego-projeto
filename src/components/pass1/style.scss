@@ -1,0 +1,12 @@
+.firstForm {
+
+    .passwords, .emailBirth {
+        display: flex;
+        width: 100%;
+        gap: 50px;
+
+        .left, .right {
+            flex: 1;
+        }
+    }
+}

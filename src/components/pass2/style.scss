@@ -1,0 +1,27 @@
+.secondForm {
+    .firstLine {
+        display: flex;
+        gap: 50px;
+
+        .left, .right {
+            flex: 1;
+        }
+    }
+
+    .secondLine {
+        display: flex;
+
+        .left, .left2 {
+            flex: 1;
+        }
+
+        .left2 {
+            margin-left: 10px;
+        }
+
+        .right {
+            margin-left: 50px;
+            flex: 2;
+        }
+    }
+}

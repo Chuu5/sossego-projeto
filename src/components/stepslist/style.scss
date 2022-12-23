@@ -1,0 +1,29 @@
+.stepsCont {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 45px;
+
+    .step {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        
+        .stepImg {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #F0F2F6;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .stepDesc {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+}
