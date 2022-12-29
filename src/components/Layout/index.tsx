@@ -15,7 +15,6 @@ function Layout({children, setSteps, steps}: LayoutProps) {
             <h2 className="layoutTitle">Criação de usuário</h2>
             <StepsList steps={steps} />
             {children}
-            <BackNextBtn setSteps={setSteps} steps={steps}/>
         </div>
     )
 }
